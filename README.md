@@ -4,6 +4,19 @@ This is a project for test task from company Be Poland Think, Solve &amp; Execut
 /* 
 Roman Petruchyk - Zadanie Front-end BePoland
 
+This project allows you to upload a photo, and read the following properties: 
+- Photo's name and file extension
+- Photo's size (converted to MB)
+- Photo's GPS data
+
+If the photo passes the following conditions => 
+- Photo size less than 1 MB
+- Photo has GPS data as a property
+Then, uploader will show the photo preview, photo's prperties and a marker on google map. 
+
+By clicking "Delete Button" you will delete photo and it's properties from the page + the marker from the map will be removed. 
+Instead, map will show a general world map. Marker will apear once you'll upload a photo again. 
+
 1. This code has a possibility to upload only 1 photo (no multiple file option) - I hope it is how it should be
 2. There is only "Upload file" button - no drag&drop. As far as i understand it's an optional functionality => 
 "tylko ładowanie plików poprzez element input[type=file] lub obszar drag&drop" 
