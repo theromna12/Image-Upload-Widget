@@ -1,0 +1,21 @@
+.body-box {
+   
+    width: 100%;
+    height: 85vh;
+    margin: 0 auto;
+    background: #f5f5ed;
+}
+
+.photo-preview {
+    width: 35%;
+    height: 35%;
+}
+
+#picture-remove, .file-upload {
+    padding: 10px 10px;
+}
+
+.map {
+    height: 250px;  
+    width: 100%;  
+   }

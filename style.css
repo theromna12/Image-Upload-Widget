@@ -1,0 +1,108 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background: #32c5fa
+}
+
+b {
+    font-weight: 700;
+}
+
+.header-text {
+    width: 50%;
+    padding: 10px 0;
+    margin: 0 auto;
+    background: #32c5fa;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.header-box-text {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #d4d627;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.body-box {
+   
+    width: 50%;
+    height: 85vh;
+    margin: 0 auto;
+    background: #f5f5ed;
+}
+
+.header-input {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload {
+    border-radius: 6px;
+    color:#f5f5ed;
+    background: #32c5fa;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.file-upload:hover {
+    background: #0aa9e2;
+}
+
+.photo-preview-block{
+    display: none;
+    
+}
+.photo-preview {
+    display: block;
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
+}
+
+#photo-name, #photo-size, #geo, span, .list {
+    padding: 5px 5px;
+    display: block;
+    text-align: center;
+}
+
+#picture-remove {
+    background: red;
+    border: none;
+    color: black;
+    font-weight: 500;
+    display: none;
+    margin: 10px auto;
+}
+
+#picture-remove:hover {
+    background: rgb(202, 6, 6);
+}
+
+.map {
+    display: none;
+    height: 180px;  
+    width: 80%;  
+    margin: 0 auto;
+   }
+
+.error-gps, .error-size {
+    display: none;
+    color:red;
+    font-weight: 500;
+    font-size: larger;
+    margin: 0 auto;
+    text-align: center;
+}
