@@ -1,8 +1,8 @@
 # Image-Upload-Widget
-This is a project for test task from company Be Poland Think, Solve &amp; Execute
+
 
 /* 
-Roman Petruchyk - Zadanie Front-end BePoland
+
 
 This project allows you to upload a photo, and read the following properties: 
 - Photo's name and file extension
